@@ -1,0 +1,61 @@
+.text {
+    text-align: center;
+}
+.table-set{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.edu-table{
+    margin-bottom: 24px;
+}
+.row-3{
+    text-align: center;
+}
+.col{
+    padding: 0 12px
+}
+.skill-table-2,
+.skill-table-1{
+    padding: 0 12px;
+}
+
+.skill-table-2{
+    margin-top: -16px;
+}
+.col-star{
+    padding: 6px 6px;
+}
+.col-text{
+    padding: 4px 6px;
+}
+.form-row{
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.form-label{
+    min-width: 150px;
+}
+
+.form-input{
+    /* width: 500px; */
+    flex: 1;
+}
+.form-checkbox-container{
+    display: inherit;
+    width: 100%;
+}
+.form-checkbox{
+    min-width: 50%;
+}
+.form-submit{
+    margin: auto;
+    padding: 10px 30px;
+    background-color: #ccc;
+}
+.form-submit:hover{
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
