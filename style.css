@@ -1,0 +1,51 @@
+table{
+    text-align: left;
+    width: 60%;
+    
+}
+td,th{ 
+    vertical-align: top;
+    font-family: 'Arial';
+
+}
+a,h2{
+    color: #22a39f;
+    font-family:'Arial light';
+}
+
+h1{
+    text-align: center;
+    color: #22a39f;
+    font-family:'Arial light';
+}
+blockquote,pre{
+    text-align: center;
+    color: #727878;
+    font-family:'Arial light';
+}
+.table2{
+  
+    width: 100%;
+    
+}
+.td3{
+   /* padding-right: 10px;   */
+    text-align: right;
+    height: 30px;
+    color: #22a39f;
+    font-size: large;
+}
+.td2{
+    color: #727878; font-size: large;vertical-align:middle
+}
+.btn{
+    width: 170px;
+    height: 70px;
+    background-color:  #22a39f;
+    color: #fff;
+    border-color: #22a39f;
+
+}
+p{
+    font-size: large;
+}
