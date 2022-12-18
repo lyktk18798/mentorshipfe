@@ -1,0 +1,22 @@
+body {
+  background-color: #bad7e9;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 30%;
+  border-width: 5px;
+  border-color: white;
+}
+
+#my-list {
+  color: red;
+}
+
+.list-animals {
+  color: blanchedalmond;
+}
