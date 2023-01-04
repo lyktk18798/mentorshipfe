@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5;
+
+
+}
+
+
+#title {
+  background: #68B984;
+
+}
+
+.font {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.right {
+  justify-content: right;
+  display: flex;
+  right: 100%;
+}
+
+.burger-menu {
+  margin-right: 16px;
+}
+
+.btn {
+  height: 95px;
+  width: 190px;
+  font-size: large;
+}
+
+.btn-act {
+  height: 50px;
+  width: 120px;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+}

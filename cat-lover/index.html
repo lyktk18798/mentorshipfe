@@ -1,102 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cat lovers</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <section id="title">
-      <!-- Nav Bar -->
 
-      <!-- Title -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat lovers</title>
+  <!--  -->
+  <link rel="stylesheet" href="../cat-lover/css/style.css" />
+  <!-- bootstrap + script -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/b019d8d091.js" crossorigin="anonymous"></script>
+</head>
 
-      <div>
-        <h1>Meet new and interesting cat lover nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+<body>
+  <section id="title">
+    <!-- Nav Bar -->
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark conatiner">
+      <div class="col-lg-6 mx-3">
+        <a class="navbar-brand font" href="">My brand</a>
       </div>
       <div>
-        <img src="images/cat-in-phone.jpeg" alt="iphone-mockup" />
+        <button class="navbar-toggler col-lg-6 align-content-end mx-3 " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
-    </section>
+      <div class="collapse navbar-collapse right m-4 " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"><a class="nav-link" href="">Contact</a></li>
+          <li class="nav-item"><a class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <!-- Features -->
 
-    <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your cat could do it.</p>
+    <!-- Title -->
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the cats, the greatest cat lovers.</p>
+    <div class="row container-fluid">
+      <!-- left title -->
+      <div class="  col-lg-6 col-md-12 my-auto">
+        <h1 class="font " >Meet new and interesting cat lover nearby.</h1>
+        <div class="center ">
+          <button class="btn btn-primary m-3" type="button">
+            <div class="m-2"><i class="fa-brands fa-apple fa-2xl"></i></div> Download for IOS
+          </button>
+          <button class="btn btn-primary m-3" type="button">
+            <div class="m-2"><i class="fa-brands fa-google fa-xl"></i></div> Download for Android
+          </button>
+        </div>
+      </div>
 
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your cat's life or your money back.</p>
-    </section>
 
-    <!-- Testimonials -->
+  <!-- right title -->
+      <div class="right col-lg-6 col-md-12">
+        <img class="img-fluid" src="images/cat-in-phone.jpeg" alt="iphone-mockup" />
+      </div>
+    </div>
+  </div>
+  </section>
 
-    <section id="testimonials">
-      <h2>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row container center mx-auto pt-5">
+      <div class="col-lg-3 col-md-12">
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your cat could do it.</p>
+      </div>
+
+      <div class="col-lg-3 col-md-12">
+        <h3>Elite Clientele</h3>
+        <p>We have all the cats, the greatest cat lovers.</p>
+      </div>
+
+      <div class="col-lg-3 col-md-12">
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your cat's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div class="p-5 container">
+      <h2 class="font center">
         I no longer have to sniff other cats for love. I've found the hottest
         Leo on Cat Lover App.
       </h2>
-      <img src="images/cat-face.jpeg" alt="cat-profile" />
-      <em>Leo, Ha Noi</em>
-    </section>
-
-    <!-- partner -->
-
-    <section id="partner">
+      <!-- <img src="images/cat-face.jpeg" alt="cat-profile" />
+        
       <img src="images/cat-face.jpeg" alt="tc-logo" />
-      <img src="images/tnw.png" alt="tnw-logo" />
-      <img src="images/bizinsider.png" alt="biz-insider-logo" />
-      <img src="images/mashable.png" alt="mashable-logo" />
-    </section>
+        <em>Leo, Ha Noi</em> -->
+    </div>
 
-    <!-- Pricing -->
 
-    <section id="pricing">
-      <h2>A Plan for Every Cat's Needs</h2>
-      <p>Simple and affordable price plans for your and your cat.</p>
 
-      <h3>Teo</h3>
-      <h2>Free</h2>
-      <p>5 Matches Per Day</p>
-      <p>10 Messages Per Day</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
+    <div id="carouselExampleSlidesOnly" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img class="d-block w-25 mx-auto" src="images/cat-face.jpeg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-25 mx-auto" src="images/cat.jpeg" alt="Second slide">
+        </div>
+      </div>
+      <em class="center ">Leo, Ha Noi</em>
+    </div>
+  </section>
+  <br>
+  <br>
 
-      <h3>Nell</h3>
-      <h2>$49 / mo</h2>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
 
-      <h3>Mash</h3>
-      <h2>$99 / mo</h2>
-      <p>Pirority Listing</p>
-      <p>Unlimited Matches</p>
-      <p>Unlimited Messages</p>
-      <p>Unlimited App Usage</p>
-      <button type="button">Sign Up</button>
-    </section>
 
-    <!-- Call to Action -->
 
-    <section id="cta">
-      <h3>Find the True Love of Your Cat's Life Today.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-    </section>
+  <!-- partner -->
 
-    <!-- Footer -->
+  <section id="partner">
+    <!-- <img src="images/cat-face.jpeg" alt="tc-logo" /> -->
+    <div class="container-fluid center w-50">
+      <img class="col-md-3 mx-5 " src="images/tnw.png" alt="tnw-logo" />
+      <img class="col-md-3 mx-5 " src="images/bizinsider.png" alt="biz-insider-logo" />
+      <img class="col-md-3 mx-5 " src="images/mashable.png" alt="mashable-logo" />
+    </div>
+  </section>
+  <br>
+  <br>
 
-    <footer id="footer">
-      <p>© Copyright Cat Lover</p>
-    </footer>
-  </body>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+    <div class="container">
+    <div class="my-5">
+      <h2 class="center font">A Plan for Every Cat's Needs</h2>
+      <p class="center ">Simple and affordable price plans for your and your cat.</p>
+    </div>
+
+    <div class="row center ">
+      <div class="col-lg-3 ">
+        <h3>Teo</h3>
+        <h2>Free</h2>
+        <p>5 Matches Per Day</p>
+        <p>10 Messages Per Day</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+      </div>
+
+      <div class="col-lg-3">
+        <h3>Nell</h3>
+        <h2>$49 / mo</h2>
+        <p>Unlimited Matches</p>
+        <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+      </div>
+
+      <div class="col-lg-3">
+        <h3>Mash</h3>
+        <h2>$99 / mo</h2>
+        <p>Pirority Listing</p>
+        <p>Unlimited Matches</p>
+        <p>Unlimited Messages</p>
+        <p>Unlimited App Usage</p>
+        <button type="button">Sign Up</button>
+      </div>
+    </div>
+    </div>
+  </div>
+  </section>
+  
+
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+    <div class="mt-5">
+      <h3 class="center ">Find the True Love of Your Cat's Life Today.</h3>
+      <div class="center">
+        <button class="m-3 btn btn-primary btn-act" type="button">Download</button>
+        <button class="m-3 btn btn-primary btn-act" type="button">Download</button>
+      </div>
+    </div>
+  </section>
+  <br>
+
+
+
+  <!-- Footer -->
+
+  <footer id="footer " class="center ">
+    <p>© Copyright Cat Lover</p>
+  </footer>
+</body>
+
 </html>
