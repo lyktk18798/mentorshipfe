@@ -3,7 +3,8 @@ body{
   padding: 0;
   line-height: 1.5;
 }
-/* Title section */
+/* --------
+  Title section */
 #title{
   background: #68B984;
 }
@@ -23,4 +24,20 @@ body{
 }
 .title-img-phone{
   width: 100%;
+}
+/* --------
+  Features section */
+.feature-icon{
+  font-size: 2rem;
+  color: #9D3C72;
+}
+.feature-icon:hover{
+  color: #FEA1BF;
+}
+.feature-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.feature-description{
+  color: #8f8f8f;
 }
