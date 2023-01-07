@@ -14,7 +14,9 @@
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Font family: Montserrat -->
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <!-- CSS link -->
   <link rel="stylesheet" href="css/style.css" />
   <!-- Favicon -->
@@ -49,9 +51,9 @@
         </div>
       </nav>
       <!-- Title -->
-      <div class="row row-cols-1 row-cols-lg-2 g-3 py-5">
+      <div class="row py-5">
         <!-- heading -->
-        <div class="col title-download m-auto text-center text-lg-start">
+        <div class="col-lg-6 title-download m-auto text-center text-lg-start">
           <h1 class="title-heading mb-3">Meet new and interesting cat lover nearby.</h1>
           <button class="btn btn-lg btn-outline-dark mx-3" type="button"><i class="fa-brands fa-apple"></i>
             Download</button>
@@ -59,7 +61,7 @@
             Download</button>
         </div>
         <!-- image -->
-        <div class="col title-img">
+        <div class="col-lg-6 title-img">
           <img class="title-img-phone" src="./images/cat-in-phone.png" alt="iphone-mockup" />
         </div>
       </div>
@@ -70,18 +72,18 @@
 
   <section id="features">
     <div class="container py-5">
-      <div class="row row-cols-1 row-cols-lg-3 text-center">
-        <div class="col">
+      <div class="row text-center">
+        <div class="col-lg-4">
           <p class="feature-icon"><i class="fa-solid fa-circle-check"></i></p>
           <h3 class="feature-title">Easy to use.</h3>
           <p class="feature-description">So easy to use, even your cat could do it.</p>
         </div>
-        <div class="col">
+        <div class="col-lg-4">
           <p class="feature-icon"><i class="fa-solid fa-bullseye"></i></p>
           <h3 class="feature-title">Elite Clientele</h3>
           <p class="feature-description">We have all the cats, the greatest cat lovers.</p>
         </div>
-        <div class="col">
+        <div class="col-lg-4">
           <p class="feature-icon"><i class="fa-solid fa-heart"></i></p>
           <h3 class="feature-title">Guaranteed to work.</h3>
           <p class="feature-description">Find the love of your cat's life or your money back.</p>
@@ -93,52 +95,119 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <h2>
-      I no longer have to sniff other cats for love. I've found the hottest
-      Leo on Cat Lover App.
-    </h2>
-    <img src="images/cat-face.jpeg" alt="cat-profile" />
-    <em>Leo, Ha Noi</em>
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="carousel-title">
+            I no longer have to sniff other cats for love. I've found the hottest
+            Leo on Cat Lover App.
+          </h2>
+          <img class="carousel-image" src="images/cat-face.jpeg" alt="cat-profile" />
+          <em class="carousel-sub">Leo, Ha Noi</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="carousel-title">
+            I no longer have to sniff other cats for love. I've found the hottest
+            Leo on Cat Lover App.asdasd
+          </h2>
+          <img class="carousel-image" src="images/cat-face.jpeg" alt="cat-profile" />
+          <em class="carousel-sub">Leo, Ha Noi</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="carousel-title">
+            I no longer have to sniff other cats for love. I've found the hottest
+            Leo on Cat Lover App.assdaasasdsad
+          </h2>
+          <img class="carousel-image" src="images/cat-face.jpeg" alt="cat-profile" />
+          <em class="carousel-sub">Leo, Ha Noi</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </section>
 
   <!-- partner -->
 
   <section id="partner">
-    <img src="images/cat-face.jpeg" alt="tc-logo" />
-    <img src="images/tnw.png" alt="tnw-logo" />
-    <img src="images/bizinsider.png" alt="biz-insider-logo" />
-    <img src="images/mashable.png" alt="mashable-logo" />
+    <div class="container">
+      <div class="row justify-content-center">
+        <img class="col-md-4 partner-member" src="images/tnw.png" alt="tnw-logo" />
+        <img class="col-md-4 partner-member" src="images/bizinsider.png" alt="biz-insider-logo" />
+        <img class="col-md-4 partner-member" src="images/mashable.png" alt="mashable-logo" />
+      </div>
+    </div>
   </section>
 
   <!-- Pricing -->
 
   <section id="pricing">
-    <h2>A Plan for Every Cat's Needs</h2>
-    <p>Simple and affordable price plans for your and your cat.</p>
+    <div class="container py-5 text-center">
+      <!-- title -->
+      <h2 class="pricing-title">A Plan for Every Cat's Needs</h2>
+      <p class="pricing-sub">Simple and affordable price plans for your and your cat.</p>
 
-    <h3>Teo</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-    <h3>Nell</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-    <h3>Mash</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <!-- option -->
+      <div class="row row-cols-1 row-cols-lg-3 g-5 text-center">
+        <div class="col">
+          <div class="card shadow-lg h-100">
+            <div class="card-header">
+              <h3 class="option-header">Teo</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="option-title">Free</h2>
+              <ul class="list-unstyled">
+                <li>5 Matches Per Day</li>
+                <li>10 Messages Per Day</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button class="btn btn-success w-100" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg h-100">
+            <div class="card-header">
+              <h3 class="option-header">Nell</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="option-title">$49 / mo</h2>
+              <ul class="list-unstyled">
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button class="btn btn-success w-100" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-lg h-100">
+            <div class="card-header">
+              <h3 class="option-header">Mash</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="option-title">$99 / mo</h2>
+              <ul class="list-unstyled">
+                <li>Pirority Listing</li>
+                <li>Unlimited Matches</li>
+                <li>Unlimited Messages</li>
+                <li>Unlimited App Usage</li>
+              </ul>
+              <button class="btn btn-success w-100" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-
+  
   <!-- Call to Action -->
 
   <section id="cta">
