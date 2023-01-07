@@ -6,88 +6,96 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cat lovers</title>
-  <!-- Bootstrap 5.3 CDN -->
+  <!-- Font Google Monterrat -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- CDN link bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <!-- Font awesome 6.2 CDN -->
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+  <!-- Font awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Font family: Montserrat -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <!-- CSS link -->
+
+  <!-- Own stylesheet -->
   <link rel="stylesheet" href="css/style.css" />
-  <!-- Favicon -->
-  <link rel="icon" href="./images/logo.png" type="image/x-icon">
+
+  <!-- Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
   <section id="title">
-    <div class="container">
+    <div class="container-fluid">
       <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg">
-        <!-- logo -->
-        <a class="navbar-brand me-auto" href="#"><img class="logo rounded-circle bg-white" src="./images/logo.png"
-            alt="cat-logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-toggler"
-          aria-controls="nav-toggler" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Cat lover</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="nav-toggler">
-          <!-- nav -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav ms-auto">
-            <li class="navbar-item">
-              <a class="nav-link active" href="#">Home</a>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
             </li>
-            <li class="navbar-item">
-              <a class="nav-link" href="#">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
             </li>
-            <li class="navbar-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
             </li>
           </ul>
         </div>
       </nav>
+
       <!-- Title -->
-      <div class="row py-5">
-        <!-- heading -->
-        <div class="col-lg-6 title-download m-auto text-center text-lg-start">
-          <h1 class="title-heading mb-3">Meet new and interesting cat lover nearby.</h1>
-          <button class="btn btn-lg btn-outline-dark mx-3" type="button"><i class="fa-brands fa-apple"></i>
-            Download</button>
-          <button class="btn btn-lg btn-outline-dark mx-3" type="button"><i class="fa-brands fa-android"></i>
-            Download</button>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Meet new and interesting cat lover nearby.</h1>
+          <button class="btn btn-dark download-button" type="button">
+            <i class="fa-brands fa-apple me-1"></i>Download
+          </button>
+          <button class="btn btn-outline-light download-button" type="button">
+            <i class="fa-brands fa-google-play me-1"></i>Download
+          </button>
         </div>
-        <!-- image -->
-        <div class="col-lg-6 title-img">
-          <img class="title-img-phone" src="./images/cat-in-phone.png" alt="iphone-mockup" />
+        <div class="col-lg-6">
+          <img class="title-image" src="images/cat-in-phone.jpeg" alt="iphone-mockup" />
         </div>
       </div>
+    </div>
     </div>
   </section>
 
   <!-- Features -->
 
   <section id="features">
-    <div class="container py-5">
-      <div class="row text-center">
-        <div class="col-lg-4">
-          <p class="feature-icon"><i class="fa-solid fa-circle-check"></i></p>
-          <h3 class="feature-title">Easy to use.</h3>
-          <p class="feature-description">So easy to use, even your cat could do it.</p>
-        </div>
-        <div class="col-lg-4">
-          <p class="feature-icon"><i class="fa-solid fa-bullseye"></i></p>
-          <h3 class="feature-title">Elite Clientele</h3>
-          <p class="feature-description">We have all the cats, the greatest cat lovers.</p>
-        </div>
-        <div class="col-lg-4">
-          <p class="feature-icon"><i class="fa-solid fa-heart"></i></p>
-          <h3 class="feature-title">Guaranteed to work.</h3>
-          <p class="feature-description">Find the love of your cat's life or your money back.</p>
-        </div>
+    <div class="row p-5">
+      <div class="col-lg-4 pb-5">
+        <i class="fa-solid fa-circle-check fa-2xl feature-icon"></i>
+        <h3 class="feature-title">Easy to use.</h3>
+        <p class="feature-desc">So easy to use, even your cat could do it.</p>
+      </div>
+      <div class="col-lg-4 pb-5">
+        <i class="fa-solid fa-bullseye fa-2xl feature-icon"></i>
+        <h3 class="feature-title">Elite Clientele</h3>
+        <p class="feature-desc">
+          We have all the cats, the greatest cat lovers.
+        </p>
+      </div>
+
+      <div class="col-lg-4 pb-5">
+        <i class="fa-solid fa-heart fa-2xl feature-icon"></i>
+        <h3 class="feature-title">Guaranteed to work.</h3>
+        <p class="feature-desc">
+          Find the love of your cat's life or your money back.
+        </p>
       </div>
     </div>
   </section>
@@ -95,119 +103,104 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2 class="carousel-title">
-            I no longer have to sniff other cats for love. I've found the hottest
-            Leo on Cat Lover App.
+          <h2>
+            I no longer have to sniff other cats for love. I've found the
+            hottest Leo on Cat Lover App.
           </h2>
-          <img class="carousel-image" src="images/cat-face.jpeg" alt="cat-profile" />
-          <em class="carousel-sub">Leo, Ha Noi</em>
+          <img class="testimonial-image" src="images/cat.jpeg" alt="Leo-feedback" />
+          <em>Leo, Ha Noi</em>
         </div>
         <div class="carousel-item">
-          <h2 class="carousel-title">
-            I no longer have to sniff other cats for love. I've found the hottest
-            Leo on Cat Lover App.asdasd
+          <h2 class="testimonial-text">
+            My cat used to be so lonely, but with Cat lover's help, they've
+            found the love of their life. I think.
           </h2>
-          <img class="carousel-image" src="images/cat-face.jpeg" alt="cat-profile" />
-          <em class="carousel-sub">Leo, Ha Noi</em>
-        </div>
-        <div class="carousel-item">
-          <h2 class="carousel-title">
-            I no longer have to sniff other cats for love. I've found the hottest
-            Leo on Cat Lover App.assdaasasdsad
-          </h2>
-          <img class="carousel-image" src="images/cat-face.jpeg" alt="cat-profile" />
-          <em class="carousel-sub">Leo, Ha Noi</em>
+          <img class="testimonial-image" src="images/cat-face.jpeg" alt="Teo-feedback" />
+          <em>Teo, Ha Noi</em>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
   </section>
 
-  <!-- partner -->
+  <!-- Partner -->
 
   <section id="partner">
-    <div class="container">
-      <div class="row justify-content-center">
-        <img class="col-md-4 partner-member" src="images/tnw.png" alt="tnw-logo" />
-        <img class="col-md-4 partner-member" src="images/bizinsider.png" alt="biz-insider-logo" />
-        <img class="col-md-4 partner-member" src="images/mashable.png" alt="mashable-logo" />
-      </div>
-    </div>
+    <img class="partner-logo" src="images/tnw.png" alt="tnw-logo" />
+    <img class="partner-logo" src="images/bizinsider.png" alt="biz-insider-logo" />
+    <img class="partner-logo" src="images/mashable.png" alt="mashable-logo" />
   </section>
 
   <!-- Pricing -->
 
   <section id="pricing">
-    <div class="container py-5 text-center">
-      <!-- title -->
-      <h2 class="pricing-title">A Plan for Every Cat's Needs</h2>
-      <p class="pricing-sub">Simple and affordable price plans for your and your cat.</p>
+    <h2>A Plan for Every Cat's Needs</h2>
+    <p>Simple and affordable price plans for your and your cat.</p>
 
-      <!-- option -->
-      <div class="row row-cols-1 row-cols-lg-3 g-5 text-center">
-        <div class="col">
-          <div class="card shadow-lg h-100">
-            <div class="card-header">
-              <h3 class="option-header">Teo</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="option-title">Free</h2>
-              <ul class="list-unstyled">
-                <li>5 Matches Per Day</li>
-                <li>10 Messages Per Day</li>
-                <li>Unlimited App Usage</li>
-              </ul>
-              <button class="btn btn-success w-100" type="button">Sign Up</button>
-            </div>
+    <div class="row row-cols-1 row-cols-lg-3 g-5 text-center">
+      <div class="col">
+        <div class="card shadow-lg h-100">
+          <div class="card-header">
+            <h3 class="option-header">Teo</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="option-title">Free</h2>
+            <ul class="list-unstyled">
+              <li>5 Matches Per Day</li>
+              <li>10 Messages Per Day</li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <button class="btn btn-success w-100" type="button">Sign Up</button>
           </div>
         </div>
-        <div class="col">
-          <div class="card shadow-lg h-100">
-            <div class="card-header">
-              <h3 class="option-header">Nell</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="option-title">$49 / mo</h2>
-              <ul class="list-unstyled">
-                <li>Unlimited Matches</li>
-                <li>Unlimited Messages</li>
-                <li>Unlimited App Usage</li>
-              </ul>
-              <button class="btn btn-success w-100" type="button">Sign Up</button>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-lg h-100">
+          <div class="card-header">
+            <h3 class="option-header">Nell</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="option-title">$49 / mo</h2>
+            <ul class="list-unstyled">
+              <li>Unlimited Matches</li>
+              <li>Unlimited Messages</li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <button class="btn btn-success w-100" type="button">Sign Up</button>
           </div>
         </div>
-        <div class="col">
-          <div class="card shadow-lg h-100">
-            <div class="card-header">
-              <h3 class="option-header">Mash</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="option-title">$99 / mo</h2>
-              <ul class="list-unstyled">
-                <li>Pirority Listing</li>
-                <li>Unlimited Matches</li>
-                <li>Unlimited Messages</li>
-                <li>Unlimited App Usage</li>
-              </ul>
-              <button class="btn btn-success w-100" type="button">Sign Up</button>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-lg h-100">
+          <div class="card-header">
+            <h3 class="option-header">Mash</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="option-title">$99 / mo</h2>
+            <ul class="list-unstyled">
+              <li>Pirority Listing</li>
+              <li>Unlimited Matches</li>
+              <li>Unlimited Messages</li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <button class="btn btn-success w-100" type="button">Sign Up</button>
           </div>
         </div>
       </div>
     </div>
+    </div>
   </section>
-  
+
   <!-- Call to Action -->
 
   <section id="cta">
@@ -215,6 +208,7 @@
     <button type="button">Download</button>
     <button type="button">Download</button>
   </section>
+
 
   <!-- Footer -->
 
