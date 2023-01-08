@@ -3,18 +3,19 @@ body {
   margin: 0;
 }
 
-#title {
-  color: #fff;
-  background-color: #ffb26b;
-}
-
 .container-fluid {
   padding: 3% 15%;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Paragraph
+ --------------------*/
 h1, 
-h2, 
-h3{
+h2{
   margin-bottom: 30px;
 }
 
@@ -38,8 +39,14 @@ h3 {
   font-weight: 500;
 }
 
-/* Navigation bar */
+/* Title section
+-------------------- */
 
+#title {
+  color: #fff;
+  background-color: #ffb26b;
+}
+/* Navigation bar */
 .navbar {
   padding-bottom: 4.5rem;
 }
@@ -83,7 +90,8 @@ h3 {
   }
 }
 
-/* Features */
+/* Features section 
+--------------------*/
 
 #features {
   padding: 7% 15%;
@@ -94,7 +102,8 @@ h3 {
 
 .feature-icon {
   color: #9d3c72;
-  padding-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .feature-icon:hover {
@@ -110,7 +119,9 @@ h3 {
   color: #8f8f8f;
 }
 
-/* Testimonials section  */
+/* Testimonials section 
+--------------------*/
+
 #testimonials {
   text-align: center;
   background-color: #ffbaba;
@@ -140,7 +151,8 @@ h3 {
   padding: 7% 15%;
 }
 
-/* Pricing */
+/* Pricing 
+--------------------*/
 
 #pricing{
   padding: 7%;
@@ -152,7 +164,8 @@ h3 {
   justify-content: space-between;
 }
 
-/* Call to Action */
+/* Call to Action section
+--------------------*/
 
 #cta {
   background-color: #ff4c68;
@@ -162,7 +175,8 @@ h3 {
   margin: 10px;
 }
 
-/* Footer */
+/* Footer section
+--------------------*/
 
 #footer {
   text-align: center;
