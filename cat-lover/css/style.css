@@ -78,7 +78,7 @@ h2 {
     font-weight: bold;
 }
 
-.feature-desc {
+.feature-desc, #footer p, #pricing p {
     color: #8f8f8f
 }
 
@@ -111,11 +111,25 @@ h2 {
 }
 
 
-/* <!-- Pricing --> */
+/*Pricing*/
 .card-text{
     padding-top: 2rem;
 }
 
-#cta, .col-lg-4{
+#cta, .card-pricing{
     padding-top: 5rem ;
+}
+
+#footer li, #footer i{
+    padding-left: 0;
+    padding-right: 0;
+    color: black
+}
+
+.cta{
+    background: #ff4c68;
+}
+
+#footer{
+    background: #fff;
 }
