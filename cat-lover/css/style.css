@@ -83,7 +83,7 @@ h2 {
 }
 
 /* Testimonials section  */
-#testimonials {
+#testimonials, .card-footer {
     text-align: center;
     background-color: #FFBABA;
     color: #fff;
@@ -108,4 +108,14 @@ h2 {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+
+/* <!-- Pricing --> */
+.card-text{
+    padding-top: 2rem;
+}
+
+#cta, .col-lg-4{
+    padding-top: 5rem ;
 }
