@@ -2,21 +2,14 @@ body {
   margin: 0px;
   padding: 0px;
   line-height: 1.5;
+  
 }
-
-
-#title {
-  background: #68B984;
-}
-.title-img{
-  object-fit: fill;
-}
-
+/* font */
 .font {
   font-size: 3rem;
   font-family: 'Montserrat', sans-serif;
 }
-
+/* alignment */
 .center {
   justify-content: center;
   display: flex;
@@ -26,30 +19,16 @@ body {
 .right {
   justify-content: right;
   display: flex;
-  right: 100%;
 }
 
-.burger-menu {
-  margin-right: 16px;
-}
 
-.downloadbtn {
-  height: 25%;
-  width: 30%;
-  font-size: large;
-}
-
-.btn-act {
-  height: 25%;
-  width: 10%;
-  font-size: large;
-}
-
-h1 {
-  text-align: center;
-}
-#featur{
-  margin: 0px;
+/* title */
+#title {
+    background: #68B984;
+  }
+/* feature */
+.feature-card{
+  width: 18rem;
 }
 .feature-icon{
   color:#9D3C72;
@@ -59,12 +38,27 @@ h1 {
   color: #FEA1BF;
 
 }
-
 .feature-title{
   font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
 }
 .feature-color-des{
   color: #8f8f8f;
 }
 
+/* cta */
+#cta{
+    background-color: #ff4c68;
+}
+/* footer */
+#footer{
+    height: 5rem;
+
+}
+.footer-p{
+    font-size: 1.5rem;
+    opacity: 40%;
+}
+.footer-contact{
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+}
