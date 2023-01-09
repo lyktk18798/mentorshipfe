@@ -10,7 +10,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {  
@@ -22,6 +22,9 @@ h1 {
 h2 {
     font-size: 3rem;
     font-weight: bold;
+}
+p {
+    color: #B2B2B2;
 }
 
 /* Navigation bar */
@@ -53,8 +56,20 @@ h2 {
 
 /* Title image */
 .title-image {
-    width: 60%;
+    width: 40%;
     transform: rotate(25deg);
+    position: absolute;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 /* Features */
@@ -62,6 +77,9 @@ h2 {
 #features {
     padding: 7% 15%;
     text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-icon {
@@ -108,4 +126,38 @@ h2 {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+/* CTA section */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer section  */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
 }
