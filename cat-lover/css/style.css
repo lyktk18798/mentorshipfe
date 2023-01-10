@@ -109,3 +109,20 @@ h2 {
 .carousel-item {
     padding: 7% 15%;
 }
+/* Pricing section 
+---------------------*/
+#pricing {
+    padding: 10% 0;
+    text-align: center;
+}
+
+.pricing-title,
+.pricing-desc{
+    margin-bottom: 2rem;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
