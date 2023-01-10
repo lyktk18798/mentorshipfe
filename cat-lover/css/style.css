@@ -78,7 +78,7 @@ h2 {
     font-weight: bold;
 }
 
-.feature-desc {
+.feature-desc, #footer p {
     color: #8f8f8f
 }
 
@@ -108,4 +108,16 @@ h2 {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+/* STYLE FOR CTA & FOOTER */
+#cta, #cta h1{
+    background: #ff4c68;
+    color: #fff;
+    font-weight: 500;
+}
+
+#footer li, #footer i{
+    color: black;
+    padding: 0;
 }
