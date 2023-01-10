@@ -78,7 +78,7 @@ h2 {
     font-weight: bold;
 }
 
-.feature-desc {
+.feature-desc, #pricing p {
     color: #8f8f8f
 }
 
