@@ -1,148 +1,177 @@
-
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
-
-#title {
-    color: #fff;    
-    background-color: #FFB26B;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 .container-fluid {
-    padding: 3% 15%;
+  padding: 3% 15%;
 }
 
-h1 {  
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 h2 {
-    font-size: 3rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
-/* Navigation bar */
-
-.navbar {
-    padding-bottom: 4.5rem;
-}
-
-.navbar-brand {
-    font-family: "Ubuntu";
+h3{
     font-size: 2.5rem;
     font-weight: bold;
 }
+/* Title section 
+------------------------ */
+
+#title {
+  color: #fff;
+  background-color: #ffb26b;
+}
+/* Navigation bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
 }
 
 .nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat-light";
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
 }
 
 /* Download button */
 .download-button {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
-
 
 /* Title image */
 .title-image {
-    width: 60%;
-    transform: rotate(25deg);
+  width: 40%;
+  transform: rotate(25deg);
+  position: absolute;
 }
 
-/* Features */
+@media (max-width: 991px) {
+  .title-body {
+    text-align: center;
+  }
+  .title-image {
+    width: 60%;
+    transform: none;
+    position: static;
+  }
+}
+/* Features 
+------------------------*/
 
 #features {
-    padding: 7% 15%;
-    text-align: center;
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .feature-icon {
-    color: #9D3C72;
-    padding-bottom: 1rem;
+  color: #9d3c72;
+  padding-bottom: 1rem;
 }
 
 .feature-icon:hover {
-    color: #FEA1BF;
+  color: #fea1bf;
 }
 
 .feature-title {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .feature-desc {
-    color: #8f8f8f
+  color: #8f8f8f;
 }
 
-/* Testimonials section  */
+/* Testimonials section 
+------------------------ */
 #testimonials {
-    text-align: center;
-    background-color: #FFBABA;
-    color: #fff;
+  text-align: center;
+  background-color: #ffbaba;
+  color: #fff;
 }
 
 .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
 }
 
 #partner {
-    background-color: #FFBABA;
-    text-align: center;
-    padding-bottom: 3%;
+  background-color: #ffbaba;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
 .partner-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
-/* Pricing section */
-#pricing{
-    padding: 10% 0;
+/* Pricing section 
+------------------------ */
+#pricing {
+  padding: 10% 0;
 }
-.card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-/* call to action section */
-#cta{
-    padding: 10% 0;
-    background-color: #ff4c68;
+.pricing-title {
+  margin-bottom: 2rem;
 }
-.cta-title{
-    font-size: 3rem;
-    color: #fff;
-    margin-bottom: 2rem;
+.pricing-desc {
+  margin-bottom: 2rem;
 }
-.cta-btn{
-    font-size: 1.5rem;
-    margin: 1rem;
+/* call to action section 
+------------------------ */
+#cta {
+  padding: 10% 0;
+  background-color: #ff4c68;
 }
-/* footer */
-#footer{
-    padding: 3% 0;
+.cta-title {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
 }
-.footer-social{
-    justify-content: center;
-    margin-bottom: 1rem;
+.cta-btn {
+  font-size: 1.5rem;
+  margin: 1rem;
 }
-.footer-social p{
-    margin: 0 1rem;
+/* footer section 
+------------------------ */
+.footer-social {
+  justify-content: center;
+  margin-bottom: 1rem;
 }
-.footer-social a{
-    color: #000;
+.footer-social p {
+  margin: 0 1rem;
+}
+.footer-social a {
+  color: #000;
+}
+.footer-copyright {
+  margin-bottom: 0;
 }
