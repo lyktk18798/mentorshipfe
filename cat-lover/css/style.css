@@ -1,139 +1,77 @@
-
-body {
+body{ 
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-}
-
-#title {
-    color: #fff;    
-    background-color: #FFB26B;
-}
-
-.container-fluid {
-    padding: 3% 15%;
-}
-
-h1 {  
-    font-size: 3.5rem;
+    font-size: 2rem;
     line-height: 1.5;
-    font-weight: 900;
+    color:#3d5656;
 }
 
-h2 {
-    font-size: 3rem;
-    font-weight: bold;
+/* STYLE FOR NAV & LOGO  */
+.logo{
+    width: 72px;
+    height: 72px;
 }
 
-/* Navigation bar */
-
-.navbar {
-    padding-bottom: 4.5rem;
+a.nav-link {
+    color: #3d5656;
+    padding-left: 4rem;
+    font-size: 1.5rem;  
+}
+.nav-link:hover{
+    color: #CFFDE1;
 }
 
-.navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+.container-fluid.text-center{
+    background: #68b984;
+    font-size: 2rem;
+}
+hr{
+    margin: 0;
+    border-top: solid #3d5656;
 }
 
-.nav-item {
-    padding: 0 18px;
+/* TITTLE & HEADING IMG */
+
+.cat-in-phone{
+    width: 90%;
+    border-radius: 2rem;
 }
 
-.nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat-light";
+h1.intro{
+    font-size: 4rem;
 }
 
-/* Download button */
-.download-button {
-    margin: 5% 3% 5% 0;
+.btn{
+    --bs-btn-font-size: 2rem;
+}
+
+section#pricing, #cta,  div.img, div.price{
+    background: #68b984;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.col-lg-6, .col-lg-4{
+    padding-top: 3rem;
 }
 
 
-/* Title image */
-.title-image {
-    width: 60%;
-    transform: rotate(25deg);
-}
-
-/* Features */
-
-#features {
-    padding: 7% 15%;
-    text-align: center;
-}
-
-.feature-icon {
+/* Styling [Features] */
+.icon{
     color: #9D3C72;
-    padding-bottom: 1rem;
 }
-
-.feature-icon:hover {
+.icon:hover{
     color: #FEA1BF;
 }
-
-.feature-title {
-    font-size: 1.5rem;
-    font-weight: bold;
+#features h3{
+    color: #8f8f8f;
+    font-size: 1rem;
 }
-
-.feature-desc, #footer p, #pricing p {
-    color: #8f8f8f
+#feature p{
+    color: black;
+    font-family: 'Montserrat-bold';
 }
-
-/* Testimonials section  */
-#testimonials, .card-footer {
-    text-align: center;
-    background-color: #FFBABA;
-    color: #fff;
-}
-
-.testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-}
-
-#partner {
-    background-color: #FFBABA;
-    text-align: center;
-    padding-bottom: 3%;
-}
-
-.partner-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-
-.carousel-item {
-    padding: 7% 15%;
-}
-
-
-/*Pricing*/
-.card-text{
-    padding-top: 2rem;
-}
-
-#cta, .card-pricing{
-    padding-top: 5rem ;
-}
-
-#footer li, #footer i{
-    padding-left: 0;
-    padding-right: 0;
-    color: black
-}
-
-.cta{
-    background: #ff4c68;
-}
-
-#footer{
+section#features{
     background: #fff;
-}
-
-#cta h1{
-    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
