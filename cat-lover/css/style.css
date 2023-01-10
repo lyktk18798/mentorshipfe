@@ -4,11 +4,6 @@ body {
     margin: 0;
 }
 
-#title {
-    color: #fff;    
-    background-color: #FFB26B;
-}
-
 .container-fluid {
     padding: 3% 15%;
 }
@@ -22,6 +17,14 @@ h1 {
 h2 {
     font-size: 3rem;
     font-weight: bold;
+}
+
+/* Title section 
+------------------- */
+
+#title {
+    color: #fff;    
+    background-color: #FFB26B;
 }
 
 /* Navigation bar */
@@ -53,15 +56,30 @@ h2 {
 
 /* Title image */
 .title-image {
-    width: 60%;
+    width: 40%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
-/* Features */
+@media (max-width:991px){
+    .title-body{
+        text-align: center;
+    }
+    .title-image {
+        width: 60%;
+        transform: none;
+        position: static;
+    }
+}
+
+/* Features section
+-------------------*/
 
 #features {
     padding: 7% 15%;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 .feature-icon {
@@ -82,7 +100,8 @@ h2 {
     color: #8f8f8f
 }
 
-/* Testimonials section  */
+/* Testimonials section  
+-------------------*/
 #testimonials {
     text-align: center;
     background-color: #FFBABA;
@@ -90,8 +109,9 @@ h2 {
 }
 
 .testimonial-image {
-    width: 10%;
-    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     margin: 20px;
 }
 
