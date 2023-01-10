@@ -118,3 +118,31 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
 }
+/* call to action section */
+#cta{
+    padding: 10% 0;
+    background-color: #ff4c68;
+}
+.cta-title{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.cta-btn{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+/* footer */
+#footer{
+    padding: 3% 0;
+}
+.footer-social{
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.footer-social p{
+    margin: 0 1rem;
+}
+.footer-social a{
+    color: #000;
+}
