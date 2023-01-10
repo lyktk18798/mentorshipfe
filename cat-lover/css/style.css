@@ -109,3 +109,33 @@ h2 {
 .carousel-item {
     padding: 7% 15%;
 }
+/* Call to action section
+---------------------- */
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.cta-title{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.cta-btn{
+    margin: 1rem;
+}
+/* footer 
+----------------------*/
+.footer-social{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social p{
+    margin: 0 1rem;
+}
+
+.social-icon{
+    color: #000;
+}
