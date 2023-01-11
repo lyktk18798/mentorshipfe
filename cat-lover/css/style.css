@@ -127,37 +127,50 @@ p {
 .carousel-item {
     padding: 7% 15%;
 }
-
-/* Pricing section */
-#pricing {
-    padding: 100px;
-    text-align: center;
-}
-
-.pricing-card {
-    padding: 3% 2%;
-}
-
-/* CTA section */
-#cta {
+/* Call to action section
+---------------------- */
+#cta{
     background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.cta-title{
     color: #fff;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.cta-btn{
+    margin: 1rem;
+}
+/* footer 
+----------------------*/
+.footer-social{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social p{
+    margin: 0 1rem;
+}
+
+.social-icon{
+    color: #000;
+}
+/* Pricing section 
+---------------------*/
+#pricing {
+    padding: 10% 0;
     text-align: center;
-    padding: 7% 15%;
-
 }
 
-.cta-heading {
-    font-size: 3.5rem;
-    line-height: 1.5;
+.pricing-title,
+.pricing-desc{
+    margin-bottom: 2rem;
 }
 
-/* Footer section  */
-#footer {
-    padding: 7% 15%;
-    text-align: center;
-}
-
-.social-icon {
-    margin: 20px 10px;
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
