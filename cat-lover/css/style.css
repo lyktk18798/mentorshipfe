@@ -2,32 +2,18 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    text-align: center;
 }
-
+/* Container 
+------------------- */
 .container-fluid {
     padding: 3% 15%;
 }
-
-h1 {  
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
+.container-main{
+    padding: 7% 15%;
 }
-
-h2 {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
-/* Title section 
+/* Navigation bar 
 ------------------- */
-
-#title {
-    color: #fff;    
-    background-color: #FFB26B;
-}
-
-/* Navigation bar */
 
 .navbar {
     padding-bottom: 4.5rem;
@@ -48,13 +34,21 @@ h2 {
     font-family: "Montserrat-light";
 }
 
-/* Download button */
-.download-button {
-    margin: 5% 3% 5% 0;
+/* Title section 
+------------------- */
+
+#title {
+    color: #fff;    
+    background-color: #FFB26B;
 }
-
-
-/* Title image */
+.title-body{
+    text-align: left;
+}
+.title-heading {  
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
 .title-image {
     width: 40%;
     transform: rotate(25deg);
@@ -71,13 +65,13 @@ h2 {
         position: static;
     }
 }
-
+.download-button {
+    margin: 5% 3% 5% 0;
+}
 /* Features section
 -------------------*/
 
 #features {
-    padding: 7% 15%;
-    text-align: center;
     position: relative;
     z-index: 2;
 }
@@ -103,11 +97,13 @@ h2 {
 /* Testimonials section  
 -------------------*/
 #testimonials {
-    text-align: center;
     background-color: #FFBABA;
     color: #fff;
 }
-
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
 .testimonial-image {
     width: 150px;
     height: 150px;
@@ -115,10 +111,10 @@ h2 {
     margin: 20px;
 }
 
+/* Partner section
+------------------- */
 #partner {
     background-color: #FFBABA;
-    text-align: center;
-    padding-bottom: 3%;
 }
 
 .partner-logo {
@@ -126,14 +122,33 @@ h2 {
     margin: 20px 20px 50px;
 }
 
-.carousel-item {
-    padding: 7% 15%;
+/* Pricing section 
+---------------------*/
+.pricing-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.pricing-title,
+.pricing-desc{
+    margin-bottom: 2rem;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pricing-name{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.pricing-heading{
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 /* Call to action section
 ---------------------- */
 #cta{
     background-color: #ff4c68;
-    padding: 7% 15%;
 }
 
 .cta-title{
@@ -158,21 +173,4 @@ h2 {
 
 .social-icon{
     color: #000;
-}
-/* Pricing section 
----------------------*/
-#pricing {
-    padding: 10% 0;
-    text-align: center;
-}
-
-.pricing-title,
-.pricing-desc{
-    margin-bottom: 2rem;
-}
-
-.card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
