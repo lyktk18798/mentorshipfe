@@ -109,3 +109,26 @@ h2 {
 .carousel-item {
     padding: 7% 15%;
 }
+
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+/* footer */
+#footer{
+    padding-top: 3% ;
+    padding-bottom: 7%;
+    height: 5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+.footer-contact{
+    text-decoration: none;
+    -webkit-text-fill-color: black;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
