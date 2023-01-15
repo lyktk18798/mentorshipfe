@@ -23,6 +23,11 @@ h2 {
     font-size: 3rem;
     font-weight: bold;
 }
+.center {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
 
 /* Navigation bar */
 
