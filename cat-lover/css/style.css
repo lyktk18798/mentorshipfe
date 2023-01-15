@@ -123,15 +123,17 @@ h2 {
 /* footer */
 #footer{
     padding-top: 3% ;
-    padding-bottom: 7%;
-    height: 5rem;
+    padding-bottom: 5%;
+    /* height: 5rem; */
     text-align: center;
-    font-size: 1.2rem;
-    
 }
 .footer-contact{
     text-decoration: none;
     -webkit-text-fill-color: black;
+}
+.footer-p{
+    font-size: 1.3rem;
+    opacity: 40%;
 }
 table{
     display: flex;
