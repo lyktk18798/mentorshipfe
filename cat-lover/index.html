@@ -40,7 +40,7 @@
   </head>
   <body>
     <section id="title">
-      <div class="container-fluid">
+      <div class="container">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
           <a class="navbar-brand" href="#">Cat lover</a>
@@ -173,13 +173,22 @@
     <!-- partner -->
 
     <section id="partner">
-      <img class="partner-logo" src="images/tnw.png" alt="tnw-logo" />
-      <img
-        class="partner-logo"
-        src="images/bizinsider.png"
-        alt="biz-insider-logo"
-      />
-      <img class="partner-logo" src="images/mashable.png" alt="mashable-logo" />
+      <div class="container">
+        <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <img class="partner-logo" src="images/tnw.png" alt="tnw-logo" />
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <img
+          class="partner-logo"
+          src="images/bizinsider.png"
+          alt="biz-insider-logo"
+          />
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <img class="partner-logo" src="images/mashable.png" alt="mashable-logo" />
+        </div>
+      </div>
     </section>
 
     <!-- Pricing -->
@@ -250,8 +259,8 @@
 
     <!-- Footer -->
 
-    <footer id="footer">
-      <div class="container-fluid text-center">
+    <section id="footer">
+      <div class="container text-center">
         <div class="footer-social d-flex">
           <p><a class="social-icon" href="#"><i class="fa-brands fa-facebook"></i></a></p>
           <p><a class="social-icon" href="#"><i class="fa-brands fa-instagram"></i></a></p>
@@ -260,6 +269,6 @@
         </div>
         <p class="footer-copyright text-secondary">© Copyright Cat Lover</p>
       </div>
-    </footer>
+    </section>
   </body>
 </html>
