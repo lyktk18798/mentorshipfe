@@ -59,6 +59,11 @@ h1 {
     width: 60%;
     transform: rotate(25deg);
 }
+@media screen and (max-width: 1024px) {
+    .title-image {
+        transform: rotate(0deg);
+    }
+}
 
 
 /* Features 
@@ -134,4 +139,5 @@ p.pricing-desc{
     margin: 0 1rem;
     color: #000;
 }
+
 
