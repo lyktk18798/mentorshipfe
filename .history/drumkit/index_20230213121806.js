@@ -47,7 +47,14 @@ function makeSound(key) {
         break;
     }
   }
-  
+// function btnActive(key){
+//     let activeBtn = document.querySelector("." +key);
+//     activeBtn.classList.add("pressed");
+//     setTimeout(function(){
+//         activeBtn.classList.remove("pressed");
+//     }, 100)
+// }
+
 function btnAnimation(currentKey){
     let activeBtn = document.querySelector("." +currentKey);
     activeBtn.classList.add("pressed");
