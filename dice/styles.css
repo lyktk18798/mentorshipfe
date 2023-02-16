@@ -1,19 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  font: 16px/1.5 'Lobster', cursive;
+}
+
+body {
+  background-color: #393E46;
+  display: flex;
+}
 .container {
   width: 70%;
   margin: auto;
   text-align: center;
 }
-
-.dice {
-  text-align: center;
-  display: inline-block;
-
-}
-
-body {
-  background-color: #393E46;
-}
-
 h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
@@ -21,13 +20,29 @@ h1 {
   font-size: 8rem;
   color: #4ECCA3;
 }
-
+button{
+  background-color: #faf1d8;
+  color: #9c060c;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 60px;
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.7;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 0px 60px;
+}
 p {
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
-
 img {
   width: 80%;
 }
@@ -37,5 +52,5 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
+
