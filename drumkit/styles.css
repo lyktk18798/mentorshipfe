@@ -17,31 +17,38 @@ footer {
 }
 
 .w {
-
+  background-image: url(/drumkit/images/crash.png);
+  background-size: auto;
 }
 
 .a {
-
+  background-image: url(/drumkit/images/kick.png);
+  background-size: auto;
 }
 
 .s {
-
+  background-image: url(/drumkit/images/snare.png);
+  background-size: auto;
 }
 
 .d {
-
+  background-image: url(/drumkit/images/tom1.png);
+  background-size: auto;
 }
 
 .j {
-
+  background-image: url(/drumkit/images/tom2.png);
+  background-size: auto;
 }
 
 .k {
-
+  background-image: url(/drumkit/images/tom3.png);
+  background-size: auto;
 }
 
 .l {
-
+  background-image: url(/drumkit/images/tom4.png);
+  background-size: auto;
 }
 
 .set {
