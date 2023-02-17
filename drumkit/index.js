@@ -7,7 +7,7 @@ for (let i = 0; i < drum.length; i++) {
   });
 }
 
-document.addEventListener("keypress", function (event) {
+document.addEventListener("keydown", function (event) {
     makeSound(event.key);
     btnAnimation(event.key);
   });
