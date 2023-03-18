@@ -18,13 +18,13 @@ async function appWeather(name = "Hanoi") {
   const response = await fetch(`${endpoint}&q=${name}&appid=${myKey}`);
   const data = await response.json();
   temperature.textContent = data.main.temp;
-  windSpeed.innerHTML = `<i class="fa-solid fa-wind"></i> <span>${data.wind.speed}</span> m/s`;
-  windDegrees.innerHTML = `<i class="fa-regular fa-flag"></i> <span>${data.wind.deg}</span> deg`
-  clouds.innerHTML = `<i class="fa-solid fa-cloud"></i> <span>${data.clouds.all}</span> %`;
+  windSpeed.innerHTML = `<div class="weather-info"><i class="fa-solid fa-wind"></i> <span>${data.wind.speed} m/s</span></div>`;
+  windDegrees.innerHTML = `<div class="weather-info"><i class="fa-regular fa-flag"></i> <span>${data.wind.deg} deg</span></div>`
+  clouds.innerHTML = `<div class="weather-info"><i class="fa-solid fa-cloud"></i> <span>${data.clouds.all} %</span></div>`;
 
   if(data?.rain) {
     let test = data.rain;
-    rain.innerHTML = `<i class="fa-solid fa-cloud-showers-heavy"></i> <span>1h ${Object.values(test)[0]} mm</span>`
+    rain.innerHTML = `<div class="weather-info"><i class="fa-solid fa-cloud-showers-heavy"></i> <span>1h ${Object.values(test)[0]} mm</span></div>`
   }
   weatherIcon.setAttribute(
     "src",
@@ -82,11 +82,6 @@ function weatherImage(weather) {
       break;
     default:
       break;
-  }
-  if(text === "Rain") {
-    cardBottom.classList.add("c-white");
-  } else {
-    cardBottom.classList.remove("c-white");
   }
 }
 
