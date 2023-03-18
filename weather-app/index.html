@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weahter App</title>
+    <!-- Google Font Family Poppin 400 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awsome 6.3 CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="app-card">
+      <div class="app-card-top">
+        <form action="">
+          <input
+            class="input"
+            type="text"
+            data-location
+            autocomplete="off"
+            value="Hanoi"
+            name=""
+          />
+        </form>
+        <div class="temperature">
+          <span class="temperature-num">30</span>
+          <sup>°C</sup>
+        </div>
+        <div class="weahter">
+          <p class="weather-status"></p>
+          <p class="weather-description"></p>
+          <img class="weather-icon" src="" alt="" />
+        </div>
+      </div>
+      <div class="app-card-bottom">
+        <p class="wind-speed"></p>
+        <p class="wind-degrees"></p>
+        <p class="clouds"></p>
+        <p class="rain"></p>
+      </div>
+      <div class="loader"></div>
+    </div>
+
+    <!-- JS Link -->
+    <script src="./app.js"></script>
+  </body>
+</html>
