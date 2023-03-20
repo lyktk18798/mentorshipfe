@@ -1,5 +1,4 @@
-import * as dotenv from 'dotenv' 
-dotenv.config()
+
 
 const btn = document.querySelector('.btn')
 const input = document.querySelector('input')
@@ -12,8 +11,8 @@ const cloud = document.querySelector('.cloud-description')
 const wind = document.querySelector('.wind-description')
 
 
-const apiKey = process.env.API_KEY;
-const root  = process.env.ROOT;
+const apiKey = '453b116f1031ca8a7b2ac9f3cb5f6ae8'
+const root  = 'https://api.openweathermap.org/data/2.5/weather'
 
 //BOOTSTRAP JS trigger list when click cloud and wind icon 
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
