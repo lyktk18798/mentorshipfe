@@ -1,0 +1,14 @@
+body{
+    font: 16px/1.5 cursive;
+}
+
+.container{
+    max-width: 900px;
+    margin-top: 100px;
+}
+.content{
+    margin-top: 40px;
+}
+.temperature{
+    margin: 32px 0;
+}
