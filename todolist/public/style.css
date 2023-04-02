@@ -1,0 +1,35 @@
+*{
+    font-size: large;
+}
+.compItem:checked + .itemDescription{
+    text-decoration: line-through;
+}
+.itemDescription{
+    line-break: anywhere;
+    width: 100%;
+}
+.listItem:hover{
+    background-color: rgb(165, 165, 165);
+}
+.listItem, .heading,.progressSection{
+    position: relative;
+}
+
+.clearAll{
+    position:absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.form{
+    width: 700px;
+   border-radius: 15px;
+    background-color: rgb(221, 221, 221);
+}
+.add:hover,.cancle:hover,.clearAll:hover{
+    cursor: pointer;
+}
+.deleteItem:hover{
+    cursor: pointer;
+    opacity: 1;
+}
