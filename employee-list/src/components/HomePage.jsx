@@ -1,23 +1,13 @@
 import React from "react";
-import { Header } from "./Header";
-import Contact from "../contact";
 import EmployeeList from "./EmployeeList";
-
+import SearchBar from "./SearchBar";
 
 function HomePage() {
-   
   return (
     <div>
-      <Header />
-      <form action="">
-        <input
-          type="text"
-          placeholder="Search.."
-          name="search"
-          className="w-100 rounded form-control input-lg"
-        />
-      </form>
-   <EmployeeList />
+      <h3 className="text-center">Employee Directory</h3>
+      <SearchBar />
+      <EmployeeList />
     </div>
   );
 }

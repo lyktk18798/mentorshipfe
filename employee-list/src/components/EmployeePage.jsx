@@ -1,11 +1,10 @@
-import { HeaderItem } from "./Header";
 import Contact from "../contact";
 
 import React from "react";
 function EmployeePage() {
   return (
     <div>
-      <HeaderItem />
+      <h3 className="text-center">Employee</h3>
       <div className="card m-4">
         <ul className="list-group list-group-flush">
           <li className="list-group-item d-flex ">
