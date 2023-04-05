@@ -1,0 +1,151 @@
+@import url(./reset.css);
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font: 18px "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-card {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(0.8);
+  width: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 15px 50px -20px #000;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.app-card-top {
+  display: flex;
+  flex-direction: column;
+  background: #8388eb;
+  padding: 20px 10px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+.app-card img {
+  display: table;
+  margin: auto;
+}
+
+.app-card .input {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: none;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input:hover,
+.input:focus {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.temperature {
+  font-size: 5rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.temperature sup {
+  scale: 0.7;
+  font-weight: lighter;
+}
+
+.weather-status {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.weather-description {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #363636;
+}
+
+.app-card-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 0 20px 10px;
+}
+
+.app-card-bottom {
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.weather-info {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.weather-info i {
+  font-size: 1.5rem;
+}
+
+.weather-info.is-show {
+  display: flex;
+}
+
+/* loader */
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #fff;
+  border-left: 3px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 0.5s infinite linear forwards;
+  display: none;
+}
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.app-card.is-loading .loader {
+  display: block;
+}
+.app-card.is-loading .app-card-top,
+.app-card.is-loading .app-card-bottom {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+}
