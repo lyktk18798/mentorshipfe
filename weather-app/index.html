@@ -21,7 +21,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- CSS Link -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="app-card">
@@ -37,7 +37,7 @@
           />
         </form>
         <div class="temperature">
-          <span class="temperature-num">30</span>
+          <span class="temperature-num"></span>
           <sup>°C</sup>
         </div>
         <div class="weahter">
@@ -47,15 +47,31 @@
         </div>
       </div>
       <div class="app-card-bottom">
-        <div class="wind-speed"></div>
-        <div class="wind-degrees"></div>
-        <div class="clouds"></div>
-        <div class="rain"></div>
+        <div class="wind-speed">
+          <div class="weather-info">
+            <i class="fa-solid fa-wind"></i> <span></span>
+          </div>
+        </div>
+        <div class="wind-degrees">
+          <div class="weather-info">
+            <i class="fa-regular fa-flag"></i> <span></span>
+          </div>
+        </div>
+        <div class="clouds">
+          <div class="weather-info">
+            <i class="fa-solid fa-cloud"></i> <span></span>
+          </div>
+        </div>
+        <div class="rain">
+          <div class="weather-info">
+            <i class="fa-solid fa-cloud-showers-heavy"></i> <span></span>
+          </div>
+        </div>
       </div>
       <div class="loader"></div>
     </div>
 
     <!-- JS Link -->
-    <script src="./app.js"></script>
+    <script src="./js/app.js" type="module"></script>
   </body>
 </html>
