@@ -1,20 +1,22 @@
-import React from "react"
+import React from "react";
+import emojipedia from "../emojipedia";
 
-
-const Card = (props) => {
-    return (
-        <div className="term">
+const Card = () => {
+  return emojipedia
+    ? emojipedia.map((item) => {
+        return (
+          <div className="term" key={item.id}>
             <dt>
-                <span className="emoji" role="img" aria-label="Tense Biceps">
-                    {props.emoji}
-                </span>
-                <span>{props.name}</span>
+              <span className="emoji" role="img" aria-label="Tense Biceps">
+                {item.emoji}
+              </span>
+              <span>{item.name}</span>
             </dt>
-            <dd>
-                {props.meaning}
-            </dd>
-        </div>
-    )
-}
+            <dd>{item.meaning}</dd>
+          </div>
+        );
+      })
+    : null;
+};
 
-export default Card
+export default Card;
