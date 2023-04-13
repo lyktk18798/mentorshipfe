@@ -44,13 +44,36 @@ footer p {
   margin: 16px;
   float: left;
 }
+
+input#title,
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
+
+textarea,
 .note p {
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+input#title,
+textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  resize: none;
+}
+textarea{
+  height: 80px;
+}
+button {
+  padding: 4px 8px;
+  background-color: #f5ba13;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px #ccc;
 }
