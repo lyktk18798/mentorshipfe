@@ -1,17 +1,10 @@
-import React, { useState } from "react";
-import { useForm } from "react-hook-form";
+import React from "react";
 
-const Navbar = ({ searchList }) => {
-  const { handleSubmit } = useForm();
-
-  const [query, setQuery] = useState("");
-
-  const onSubmit = (data, e) => {
+const Navbar = ({ filterItems, onFilterItemsChange }) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    searchList(query);
+    onFilterItemsChange(filterItems);
   };
-  const onError = (errors, e) => console.log(errors, e);
-
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid navbar-wrapper">
@@ -40,18 +33,15 @@ const Navbar = ({ searchList }) => {
               <a className="nav-link disabled">Other</a>
             </li>
           </ul>
-          <form
-            className="d-flex"
-            role="search"
-            onSubmit={handleSubmit(onSubmit, onError)}
-          >
+          <form className="d-flex" role="search" onSubmit={handleSubmit}>
             {/* SEARCH BOOK TITLE  */}
             <input
               className="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
-              onChange={(e) => setQuery(e.target.value)}
+              value={filterItems}
+              onChange={(e) => onFilterItemsChange(e.target.value)}
             />
             <button className="btn btn-outline-success" type="submit">
               Search

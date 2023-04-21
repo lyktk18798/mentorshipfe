@@ -10,7 +10,7 @@ import fourWind from "./src/img/thefourthwind.webp";
 import lampLighter from "./src/img/thelamplighter.webp";
 import paradise from "./src/img/toParadise.webp";
 
-const bookList = [
+const BOOKLIST = [
   {
     id: 1,
     src: aThousandShips,
@@ -101,4 +101,4 @@ const bookList = [
   },
 ];
 
-export default bookList;
+export default BOOKLIST;
