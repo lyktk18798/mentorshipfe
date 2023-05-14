@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#root{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grocery-wrap{
+  box-sizing: border-box;
+  padding: 16px;
+}
+.bi:hover{
+  cursor: pointer;
+  background-color: darkgray;
+}
+.bi-x-lg{
+  color: red;
+}
+.bi-pencil-square{
+  color: green;
+}
